@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 560" role="img" aria-labelledby="title description">
+  <title id="title">Astronaut body map</title>
+  <desc id="description">Front-view body silhouette with telemetry landmarks for the head, chest, abdomen, and joints.</desc>
+  <g fill="#DCE8F5" stroke="#2F4B7C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="160" cy="58" r="36"/>
+    <path d="M127 112h66l22 30 48 116-25 12-39-85-7 81 31 204h-31l-32-166-32 166h-31l31-204-7-81-39 85-25-12 48-116z"/>
+  </g>
+  <g fill="#2EC48B" stroke="#F7FAFD" stroke-width="5">
+    <circle cx="160" cy="174" r="13"/>
+    <circle cx="160" cy="245" r="13"/>
+    <circle cx="115" cy="258" r="11"/>
+    <circle cx="205" cy="258" r="11"/>
+    <circle cx="134" cy="347" r="11"/>
+    <circle cx="186" cy="347" r="11"/>
+  </g>
+</svg>

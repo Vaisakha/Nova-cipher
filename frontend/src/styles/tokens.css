@@ -1,0 +1,117 @@
+:root {
+  /* Core Light Palette */
+  --bg: #F7FAFD;
+  --surface: #FFFFFF;
+  --surface-alt: #EAF2FB;
+  --pastel-blue: #CFE3F7;
+  --pastel-blue-2: #A9CBEF;
+  --blue-dark: #4A6FA5;
+  --blue-deep: #2F4B7C;
+  --text: #1F2F4A;
+  --text-muted: #5B6B85;
+
+  /* Status Tokens (WCAG AA Compliant) */
+  --status-green: #1F7A5A;
+  --status-green-tint: #DDF3EA;
+  --status-amber: #9A6200;
+  --status-amber-tint: #FFF1D6;
+  --status-red: #C0392B;
+  --status-red-tint: #FBE0DC;
+
+  /* Touch & Form Sizing */
+  --touch-target-min: 56px;
+  --touch-target-lg: 64px;
+  --radius-card: 16px;
+  --radius-btn: 12px;
+
+  /* Typography scale */
+  --base-font-size: 16px;
+}
+
+/* Dark Theme (Low-Light Cabin & Sleep Periods) */
+.dark {
+  --bg: #0C1420;
+  --surface: #142032;
+  --surface-alt: #1D2D46;
+  --pastel-blue: #233756;
+  --pastel-blue-2: #2E456B;
+  --blue-dark: #6C94CC;
+  --blue-deep: #A7CBF4;
+  --text: #F1F5FB;
+  --text-muted: #A3B5D0;
+
+  --status-green: #2EC48B;
+  --status-green-tint: #0B3323;
+  --status-amber: #E5A122;
+  --status-amber-tint: #3B2603;
+  --status-red: #E74C3C;
+  --status-red-tint: #3D120E;
+}
+
+/* High Contrast Mode */
+.high-contrast {
+  --bg: #000000;
+  --surface: #101010;
+  --surface-alt: #222222;
+  --pastel-blue: #FFFFFF;
+  --pastel-blue-2: #CCCCCC;
+  --blue-dark: #66B2FF;
+  --blue-deep: #99CCFF;
+  --text: #FFFFFF;
+  --text-muted: #EEEEEE;
+
+  --status-green: #00FF66;
+  --status-green-tint: #003311;
+  --status-amber: #FFCC00;
+  --status-amber-tint: #332800;
+  --status-red: #FF3333;
+  --status-red-tint: #330000;
+}
+
+/* Font Size Scales */
+html.font-scale-sm { font-size: 14px; }
+html.font-scale-md { font-size: 16px; }
+html.font-scale-lg { font-size: 18px; }
+html.font-scale-xl { font-size: 20px; }
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+/* Low-fidelity Wireframe Box Styling */
+.wf-box {
+  border: 2px dashed #64748b;
+  background-color: #f1f5f9;
+  color: #1e293b;
+  position: relative;
+}
+
+.dark .wf-box {
+  border: 2px dashed #94a3b8;
+  background-color: #1e293b;
+  color: #f8fafc;
+}
+
+.wf-callout {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 9999px;
+  background-color: #0284c7;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  z-index: 20;
+}
